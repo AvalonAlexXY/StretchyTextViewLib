@@ -8,8 +8,8 @@
  
 ## 三、使用方法：
  
-1.gradle 中添加：   
-2.调用ExpandTextView
+1.gradle 中添加：  compile 'com.yansheng.stretchytextviewlib:expandlib:1.0' <br> 
+2.调用ExpandTextView<br> 
        ExpandTextView expandTextView =(ExpandTextView) findViewById(R.id.expand_text);<br> 
         //输入展示行数<br> 
         expandTextView.setMaxLineCount(3);<br> 
